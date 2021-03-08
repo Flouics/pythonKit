@@ -1,0 +1,10 @@
+stu/assetsRes/res/beijing/beijing79.jpg
+stu/assetsRes/res/activity/redPacket/bg.jpg
+stu/assetsRes/res/activity/3/bg316.jpg
+stu/assetsRes/res/activity/3/bg253.jpg
+stu/assetsRes/res/actnew/beijing565.jpg
+stu/assetsRes/res/beijing/beijing79.jpg
+stu/assetsRes/res/activity/redPacket/bg.jpg
+stu/assetsRes/res/activity/3/bg316.jpg
+stu/assetsRes/res/activity/3/bg253.jpg
+stu/assetsRes/res/actnew/beijing565.jpg

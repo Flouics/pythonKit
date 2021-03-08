@@ -1,0 +1,183 @@
+Revision: 136281
+Author: yanxiaoming
+Date: 2019/9/11 15:37:08
+Message:
+提交svn,至少包含4个字符的注释
+----
+Modified : /res/skin/dsHg
+
+Revision: 136224
+Author: yanxiaoming
+Date: 2019/9/11 13:41:22
+Message:
+脚本测试。#1
+----
+Added : /res/skin/dsHg/cmpFiles/hotUpdateBySrc.py
+
+Revision: 136217
+Author: yanxiaoming
+Date: 2019/9/11 11:49:45
+Message:
+fixed #修正门客技能2满了无法学习的问题。
+----
+Modified : /res/skin/dsHg/skin/game/servant/init.lua
+
+Revision: 136175
+Author: yanxiaoming
+Date: 2019/9/11 10:47:44
+Message:
+脚本测试。
+----
+Added : /res/skin/dsHg/cmpFiles
+Added : /res/skin/dsHg/cmpFiles/skin
+Added : /res/skin/dsHg/cmpFiles/skin/GameCore.lua
+Added : /res/skin/dsHg/cmpFiles/skin/auto
+Added : /res/skin/dsHg/cmpFiles/skin/auto/testLanguage4.lua
+Added : /res/skin/dsHg/cmpFiles/skin/game
+Added : /res/skin/dsHg/cmpFiles/skin/game/help
+Added : /res/skin/dsHg/cmpFiles/skin/game/help/HelpProxy.lua
+Added : /res/skin/dsHg/cmpFiles/stu
+Added : /res/skin/dsHg/cmpFiles/stu/rebel
+Added : /res/skin/dsHg/cmpFiles/stu/rebel/itemRank.lua
+Added : /res/skin/dsHg/dsHg.sublime-project
+Added : /res/skin/dsHg/dsHg.sublime-workspace
+
+Revision: 136066
+Author: yanxiaoming
+Date: 2019/9/10 17:21:12
+Message:
+群雄争霸
+----
+Modified : /res/skin/dsHg/DsHgDesign.ccs
+Modified : /res/skin/dsHg/DsHgDesign.udf
+Added : /res/skin/dsHg/res/plist/c32.png
+Added : /res/skin/dsHg/res/plist/cw32.png
+Added : /res/skin/dsHg/res/plist/m3012.png
+Added : /res/skin/dsHg/res/plist/m3012HD.png
+Modified : /res/skin/dsHg/skin/GameCore.lua
+Modified : /res/skin/dsHg/skin/auto/help.lua
+Modified : /res/skin/dsHg/skin/auto/item.lua
+Modified : /res/skin/dsHg/skin/auto/palace.lua
+Modified : /res/skin/dsHg/skin/auto/testLanguage4.lua
+Modified : /res/skin/dsHg/skin/game/activity/ActivityCommand.lua
+Added : /res/skin/dsHg/skin/game/hegemony
+Added : /res/skin/dsHg/skin/game/hegemony/ConfrontationView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/FightView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/HegeDetialView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/HegeLineupView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/HegemonRankView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/HegemonyChatView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/HegemonyCommand.lua
+Added : /res/skin/dsHg/skin/game/hegemony/HegemonyProxy.lua
+Added : /res/skin/dsHg/skin/game/hegemony/HegemonyView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/MobaiSuccess.lua
+Added : /res/skin/dsHg/skin/game/hegemony/MobaiView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/ResultView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/ServantView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/SilkbagView.lua
+Added : /res/skin/dsHg/skin/game/hegemony/constants.lua
+Added : /res/skin/dsHg/skin/game/hegemony/hegemonyRankReward.lua
+Added : /res/skin/dsHg/skin/game/hegemony/init.lua
+Added : /res/skin/dsHg/skin/game/hegemony/myConfrontationView.lua
+Modified : /res/skin/dsHg/skin/game/help/HelpProxy.lua
+Modified : /res/skin/dsHg/skin/game/home/HomeView.lua
+Modified : /res/skin/dsHg/skin/game/texture/init.lua
+Added : /res/skin/dsHg/stu/assetsRes/effect/guanghuan-lizitexiao.ExportJson
+Added : /res/skin/dsHg/stu/assetsRes/effect/guanghuan-lizitexiao0.plist
+Added : /res/skin/dsHg/stu/assetsRes/effect/guanghuan-lizitexiao0.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/act521.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/jediyamen
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/jediyamen/banghuipaiming.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/jediyamen/banghuixiangqing.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/jediyamen/huodong.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/jediyamen/taotailunci.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/jediyamen/yuxuansaipaiming.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/battledi.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/bg.jpg
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/bg3.jpg
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/chengyuan.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/congration.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/di.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/dise2.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/dise3.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/dise4.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/duikangdi.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/duizhanxinxi.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/effect
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/effect/zongcaiguanjun11.ExportJson
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/effect/zongcaiguanjun110.plist
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/effect/zongcaiguanjun110.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/effect/zongcaijifendi.ExportJson
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/effect/zongcaijifendi0.plist
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/effect/zongcaijifendi0.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/gunjuanditu.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/huabu.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jifenBg.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinji.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinji1.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinji16.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinji2.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinji32.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinji4.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinji8.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinjiFail.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinjiWin.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinjibg.jpg
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/jinjisai.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/juesai.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/juesaibg.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/lianjie.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/lianjie2.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/mainKuang.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/mobai.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/rangBg.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/sheng.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/taotai.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/title.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/vs.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/vs1.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/vs2.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/xiuzhan.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/qxzb/zhankuan.png
+Added : /res/skin/dsHg/stu/assetsRes/res/activity/type521.png
+Added : /res/skin/dsHg/stu/assetsRes/res/chat/chat_msg-bg11.png
+Added : /res/skin/dsHg/stu/assetsRes/res/dress/servantfull/436.png
+Added : /res/skin/dsHg/stu/assetsRes/res/dress/servanthead/436.png
+Added : /res/skin/dsHg/stu/assetsRes/res/dress/servantname1/436.png
+Added : /res/skin/dsHg/stu/assetsRes/res/dress/servantname2/436.png
+Added : /res/skin/dsHg/stu/assetsRes/res/dress/servantname3/436.png
+Added : /res/skin/dsHg/stu/assetsRes/res/palaceA/bname/32.png
+Added : /res/skin/dsHg/stu/assetsRes/res/palaceA/hname/h32.png
+Added : /res/skin/dsHg/stu/assetsRes/res/palaceA/vname/33.png
+Added : /res/skin/dsHg/stu/assetsRes/res/player/headline/32.png
+Added : /res/skin/dsHg/stu/hegemony
+Added : /res/skin/dsHg/stu/hegemony/figghtResult.lua
+Added : /res/skin/dsHg/stu/hegemony/hegeConfrontationView.lua
+Added : /res/skin/dsHg/stu/hegemony/hegeDetialView.lua
+Added : /res/skin/dsHg/stu/hegemony/hegeLineupView.lua
+Added : /res/skin/dsHg/stu/hegemony/hegeOwner.lua
+Added : /res/skin/dsHg/stu/hegemony/hegeRankView.lua
+Added : /res/skin/dsHg/stu/hegemony/hegeRnkReward.lua
+Added : /res/skin/dsHg/stu/hegemony/hegemonyView.lua
+Added : /res/skin/dsHg/stu/hegemony/mobaiView.lua
+Added : /res/skin/dsHg/stu/hegemony/servantView.lua
+Added : /res/skin/dsHg/stu/hegemony/silkbag.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel
+Added : /res/skin/dsHg/stu/hegemony/subPanel/allRankItem.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/confrontationItem2.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/dialog.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/itemExchange.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/lineupItem.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/mobaiItem.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/mobaiSuccessItem.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/myConfrontationItem.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/promotionItem1.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/promotionItem2.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/promotionItem3.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/rankRewardItem.lua
+Added : /res/skin/dsHg/stu/hegemony/subPanel/servantItem.lua
+Added : /res/skin/dsHg/stu/jediYanmen
+Added : /res/skin/dsHg/stu/jediYanmen/jediRankView.lua
+Modified : /res/skin/dsHg/stu/rebel/itemRank.lua
+

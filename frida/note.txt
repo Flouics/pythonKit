@@ -1,0 +1,12 @@
+
+
+安装objection，自动完成frida gadget注入到apk中
+
+$ pip3 install -U objection
+$ objection patchapk -s com.hainan.king_kingDs_jpzc.hainan.apk
+
+
+frida -U -f com.demo.fridahook
+=== 附加到进程
+
+
