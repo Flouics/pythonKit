@@ -1,0 +1,14 @@
+.idea/
+filesUtils/apk/
+filesUtils/fix/
+filesUtils/i2tOut/
+filesUtils/image2text/
+findFiles/copyAct/
+findFiles/files/
+*- 副本.txt
+findFiles/out/
+hotupdate/lib/
+minApk/filesUtils/apk/
+
+spider_test/out/
+spiderClone/out/
