@@ -1,6 +1,7 @@
 
 import os
 import shutil
+import re
 
 #创建文件对应的目录
 def mkdirs(file):
@@ -32,3 +33,10 @@ def mkdirs_by_relative(file_relative):
 def removedirs(path):
     if os.path.exists(path):
         shutil.rmtree(path)
+
+
+# 去除空格和换行
+def trim(str):
+    s = str.strip()
+    s = s.replace(r'\n\r',"")
+    return s

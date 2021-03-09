@@ -52,20 +52,19 @@ def split(filePath):
                     while  True: #直到找到有:分割符的                       
                         args = rl.split(":")
                         if len(args) < 2 :
-                            dict["name"] = args[0].strip()
+                            dict["name"] = utils.trim(args[0])
                             rl = atlas.readline() 
                         else:
                             break
 
                     while  len(args) > 1: #开始解析            
-                        dict[args[0].strip()] = args[1].split(",")
+                        dict[utils.trim(args[0])] = utils.trim(args[1]).split(",")
                         rl = atlas.readline() # rotate
                         args = rl.split(":")
                     
                     print(dict)
                     name = dict["name"] + ".png";
                     # rotate,size,orig,offset,index
-                    #print(dict)
                     args = dict["size"]
                     width = int(args[0])
                     height= int(args[1])
