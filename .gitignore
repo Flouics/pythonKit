@@ -12,3 +12,5 @@ minApk/filesUtils/apk/
 
 spider_test/out/
 spiderClone/out/
+filesUtils/splitAtlas/
+filesUtils/splitAtlasOut/
